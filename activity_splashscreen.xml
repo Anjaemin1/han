@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="//바탕색 설정."
+    android:layout_gravity="center"
+     android:id="@+id/lin_lay"
+    android:gravity="center"
+    android:orientation="vertical" >
+ 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/splash"
+        android:background="@drawable/splash_img" /> //여기 옆에서 "splash_img"부분이 이름. drawable은 폴더이름. 올바른 폴더에 사진을 넣어주어야함.
+ 
+</LinearLayout>
